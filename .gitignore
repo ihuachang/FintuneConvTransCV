@@ -3,3 +3,5 @@ labels/
 images/
 runs/
 *.pt
+*.zip
+hw1_data.zip
