@@ -1,0 +1,9 @@
+# Please insure that your custom_dataset are put in same parent dir with YOLOv6_DIR
+train: ./images/train # train images
+val: ./images/valid # val images
+
+# whether it is coco dataset, only coco dataset should be set to True.
+is_coco: False
+# Classes
+nc: 8  # number of classes
+names: ['creatures', 'fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray']  # class names
